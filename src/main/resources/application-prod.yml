@@ -17,6 +17,8 @@ chain:
   txPoolSleep: 1500
   # Path of the Keystore file
   walletFilePath: "your-directory/wallet"
+  # After the system started, the event parsing can be started from this block height. This number can be determined based on the latest block height before the system started.
+  blockHeight: [ 10000 ]
 
 task:
   # Whether to start a timed task to submit a transaction/time parse
